@@ -1,0 +1,15 @@
+{
+  "ethereum": "https://ipfs.io/ipfs/QmbUbUDkRv1gRWRidyKVW1emiyAKktY5BqabahTJLToqfp/",
+  "bsc": "https://ipfs.io/ipfs/QmWnMZCkoer9HP619GcLB4TECnx3dd9W1EfV19SUpiASGb/",
+  "avalanche": "https://ipfs.io/ipfs/QmbUwy61Pd4Jk1bNprC1Q7q1VzUgDTS8ZF5WVZ1cWGT332/",
+  "polygon": "https://ipfs.io/ipfs/QmdAt3y9HTWjxCFMUXRyUCA1F26XHVHEr1jfiHyxhBEULV/",
+  "arbitrumOne": "https://ipfs.io/ipfs/Qmc2j9G7Qe4zjiMYMak7K6J2Mtty7ewMDNgi18w8g6gqzJ/",
+  "optimism": "https://ipfs.io/ipfs/QmRum6Qkc4M2HZeNB8p3RVwF299tK1w9SJW8DvE2hd8wAK/",
+
+  "rinkeby": "https://ipfs.io/ipfs/QmbUbUDkRv1gRWRidyKVW1emiyAKktY5BqabahTJLToqfp/",
+  "bsc-testnet": "https://ipfs.io/ipfs/QmWnMZCkoer9HP619GcLB4TECnx3dd9W1EfV19SUpiASGb/",
+  "fuji": "https://ipfs.io/ipfs/QmbUwy61Pd4Jk1bNprC1Q7q1VzUgDTS8ZF5WVZ1cWGT332/",
+  "mumbai": "https://ipfs.io/ipfs/QmdAt3y9HTWjxCFMUXRyUCA1F26XHVHEr1jfiHyxhBEULV/",
+  "arbitrum-rinkeby": "https://ipfs.io/ipfs/Qmc2j9G7Qe4zjiMYMak7K6J2Mtty7ewMDNgi18w8g6gqzJ/",
+  "optimism-kovan": "https://ipfs.io/ipfs/QmRum6Qkc4M2HZeNB8p3RVwF299tK1w9SJW8DvE2hd8wAK/"
+}

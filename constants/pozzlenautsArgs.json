@@ -1,0 +1,64 @@
+{
+  "ethereum": {
+    "startMintId": 0,
+    "endMintId": 1221,
+    "usdcAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+  },
+  "bsc": {
+    "startMintId": 1622,
+    "endMintId": 1821,
+    "usdcAddress": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
+  },
+  "avalanche": {
+    "startMintId": 1422,
+    "endMintId": 1621,
+    "usdcAddress": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E"
+  },
+  "polygon": {
+    "startMintId": 1222,
+    "endMintId": 1421,
+    "usdcAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+    "pozAddress": "0x701fD77F1B00547BE745957Ddf1cc92F9D088B6B"
+  },
+  "arbitrumOne": {
+    "startMintId": 1822,
+    "endMintId": 2021,
+    "usdcAddress": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+  },
+  "optimism": {
+    "startMintId": 2022,
+    "endMintId": 2221,
+    "usdcAddress": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607"
+  },
+  "rinkeby": {
+    "startMintId": 0,
+    "endMintId": 1221,
+    "usdcAddress": "0x7543923063e9BbeAa21cd5e993895Be98593558a"
+  },
+  "bsc-testnet": {
+    "startMintId": 1622,
+    "endMintId": 1821,
+    "usdcAddress": "0x9723cec49ad6e6A170fDDf96f9A31eE3aBAECC8B"
+  },
+  "fuji": {
+    "startMintId": 1422,
+    "endMintId": 1621,
+    "usdcAddress": "0x9F37267130a0cE8d381e678Afd75b32463c6f5B6"
+  },
+  "mumbai": {
+    "startMintId": 1222,
+    "endMintId": 1421,
+    "usdcAddress": "0x9561624667eEa5759889Ea413923f81D04752fE8",
+    "pozAddress": "0x7c4CCfEDCEeEDDB2B71dE2C51A1Dd9f897A3a435"
+  },
+  "arbitrum-rinkeby": {
+    "startMintId": 1822,
+    "endMintId": 2021,
+    "usdcAddress": "0x463d55d6416a7CCa1f7C005a6AC8f0dD70a6f410"
+  },
+  "optimism-kovan": {
+    "startMintId": 2022,
+    "endMintId": 2221,
+    "usdcAddress": "0x463d55d6416a7CCa1f7C005a6AC8f0dD70a6f410"
+  }
+}
