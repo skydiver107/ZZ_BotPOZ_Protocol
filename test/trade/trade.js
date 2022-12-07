@@ -50,7 +50,8 @@ describe('Test 1000 Random Flash Swap To Check Price Growth', () => {
     ) // set weth address to none as no need to use it
     console.log(`Router contract deployed to ${uniRouterV2.address}`)
 
-    await pozToken.setRift(uniRouterV2.address)
+    // await pozToken.setRift(uniRouterV2.address)
+    await pozToken.setRift(owner.address)
     await pozToken.connect(vault1).transfer(owner.address, ethers.utils.parseEther("300000"))
     /* add initial liquidity to the uniswap v2 pair */
     await pozToken.approve(uniRouterV2.address, ethers.utils.parseEther("300000"))
@@ -139,7 +140,7 @@ describe('Test 1000 Random Flash Swap To Check Price Growth', () => {
       await (await uniRouterV2.connect(rdUser)[methodName](...args)).wait()
 
       /* dynamic price adjustment after swap: should be done by bot */
-      await (await pozToken.dynamicAdjustment(tradeType, false)).wait()
+      await (await pozToken.dynamicAdjustment(tradeType)).wait()
 
       /* get poz token pool price */
       const pozBalance = ethers.utils.formatUnits(await pozToken.balanceOf(poolAddress), 18)

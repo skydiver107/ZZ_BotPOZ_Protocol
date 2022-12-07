@@ -8,7 +8,7 @@
     },
     {
       "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
-      "txHash": "0xa0754ebb9f9e0da2297fd881a0b43deae9f20e668694baa5b0ddfd831d28bcdf",
+      "txHash": "0xdf84709366cb29a44526f82d1fc395b307fbffc79c4fd9302aef9776fe8255d5",
       "kind": "uups"
     }
   ],
@@ -289,9 +289,9 @@
         }
       }
     },
-    "98c22209823bc14bb181b101b7fa1bff92f54e7474d61c3559b7b23d7104affa": {
+    "f2eb295d7d87cc20affaad6f7e0223d248e0526f9c94f98d156c99a5896aafbe": {
       "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
-      "txHash": "0x828a1f5046025f45a42f80d49cbcce9376c4f97833876ef6fa30563fd4dfc7bb",
+      "txHash": "0x22b15467013ac135d18aab18746231fbd19bc52ad808cc55d929a205c0e7c0ab",
       "layout": {
         "solcVersion": "0.8.10",
         "storage": [
@@ -436,7 +436,7 @@
             "label": "backing",
             "offset": 0,
             "slot": "255",
-            "type": "t_struct(ReserveInfo)2282_storage",
+            "type": "t_struct(ReserveInfo)6931_storage",
             "contract": "PozToken",
             "src": "contracts\\PozToken.sol:51"
           },
@@ -444,7 +444,7 @@
             "label": "emission",
             "offset": 0,
             "slot": "257",
-            "type": "t_struct(ReserveInfo)2282_storage",
+            "type": "t_struct(ReserveInfo)6931_storage",
             "contract": "PozToken",
             "src": "contracts\\PozToken.sol:52"
           },
@@ -452,7 +452,7 @@
             "label": "pair",
             "offset": 0,
             "slot": "259",
-            "type": "t_contract(IUniswapV2Pair)2208",
+            "type": "t_contract(IUniswapV2Pair)5648",
             "contract": "PozToken",
             "src": "contracts\\PozToken.sol:53"
           },
@@ -460,7 +460,7 @@
             "label": "lockedAddress",
             "offset": 0,
             "slot": "260",
-            "type": "t_array(t_struct(LockedAddress)2277_storage)dyn_storage",
+            "type": "t_array(t_struct(LockedAddress)6926_storage)dyn_storage",
             "contract": "PozToken",
             "src": "contracts\\PozToken.sol:54"
           },
@@ -478,7 +478,7 @@
             "label": "address",
             "numberOfBytes": "20"
           },
-          "t_array(t_struct(LockedAddress)2277_storage)dyn_storage": {
+          "t_array(t_struct(LockedAddress)6926_storage)dyn_storage": {
             "label": "struct PozToken.LockedAddress[]",
             "numberOfBytes": "32"
           },
@@ -498,7 +498,7 @@
             "label": "bool",
             "numberOfBytes": "1"
           },
-          "t_contract(IUniswapV2Pair)2208": {
+          "t_contract(IUniswapV2Pair)5648": {
             "label": "contract IUniswapV2Pair",
             "numberOfBytes": "20"
           },
@@ -518,7 +518,7 @@
             "label": "string",
             "numberOfBytes": "32"
           },
-          "t_struct(LockedAddress)2277_storage": {
+          "t_struct(LockedAddress)6926_storage": {
             "label": "struct PozToken.LockedAddress",
             "members": [
               {
@@ -536,7 +536,7 @@
             ],
             "numberOfBytes": "32"
           },
-          "t_struct(ReserveInfo)2282_storage": {
+          "t_struct(ReserveInfo)6931_storage": {
             "label": "struct PozToken.ReserveInfo",
             "members": [
               {
